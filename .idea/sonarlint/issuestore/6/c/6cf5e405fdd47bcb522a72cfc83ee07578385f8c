@@ -1,0 +1,11 @@
+
+o
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ŞÄƒ 
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(îÄ÷Á
+n
+java:S1450"XRemove the "leerExcel" field and declare it as a local variable in the relevant methods.(ŞÄƒ 
+h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€ÃçÛûÿÿÿÿ
+Q
+java:S26965"6Make the enclosing method "static" or remove this set.(‚ïÁóıÿÿÿÿ
+A
+java:S59609"+Remove this assertion from production code.(Úæ´

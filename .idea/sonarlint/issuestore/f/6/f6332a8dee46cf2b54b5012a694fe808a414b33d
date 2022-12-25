@@ -1,0 +1,10 @@
+
+o
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÞÄƒ 
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(îÄ÷Á
+n
+java:S1450"XRemove the "leerExcel" field and declare it as a local variable in the relevant methods.(ÞÄƒ 
+Q
+java:S2696"6Make the enclosing method "static" or remove this set.(òÎ±øÿÿÿÿ
+Y
+java:S1128">Remove this unused import 'es.com.nike.Utils.EsperaImplicita'.(Ù¥¢ªÿÿÿÿÿ
