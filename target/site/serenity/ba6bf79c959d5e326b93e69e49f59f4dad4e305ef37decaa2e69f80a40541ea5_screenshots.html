@@ -132,7 +132,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 08-12-2022 23:09</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 28-10-2024 14:59</span>
     <br style="clear:left"/>
 </div>
 
@@ -173,9 +173,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></a></span>
                             <span class="test-case-title">
-                                <span class="success-color">Existencia Producto Exitoso
+                                <span class="error-color">Existencia Producto Exitoso
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -192,19 +192,53 @@
 
     <div id="beforetable"></div>
     <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">No such window exception: no such window: target window already closed</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>org.openqa.selenium.NoSuchWindowException </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>Steps.com.floristeriamundoflor.PaginaProductoStep.validarProductoEvora(PaginaProductoStep.java:46)<br />StepDefinitions.com.floristeriamundoflor.ProducStepDefinition.elVisualizaraLaDescripciónDelProducto(ProducStepDefinition.java:32)<br />✽.El visualizara la descripción del producto(src/test/resources/features/ProductEvora.feature:10)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                <div class="panel-body">
+                    <a href="#" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
-                <img src="8d0a413eebf93b81f713e6d510270d47e5011beead795d75a52052729d589428.png" title=" Dado Que el usuario se encuentra en la pagina web" width="1280"/>
-                <img src="8d0a413eebf93b81f713e6d510270d47e5011beead795d75a52052729d589428.png" title=" Abrir navegador" width="1280"/>
-                <img src="ff65728d1458f361de2c3f9bd606cd9519eb6e7193df673ba6034220c1e7c982.png" title=" Dado Que el usuario se encuentra en la pagina web (completed)" width="1280"/>
-                <img src="040f7c1d19cfddbc8e897234443b097ec1a80944ed0c5a7a75aca14a51691b16.png" title=" Cuando El seleccione las Nike Air Force" width="1280"/>
-                <img src="040f7c1d19cfddbc8e897234443b097ec1a80944ed0c5a7a75aca14a51691b16.png" title=" Seleccionar producto" width="1280"/>
-                <img src="040f7c1d19cfddbc8e897234443b097ec1a80944ed0c5a7a75aca14a51691b16.png" title=" Click: By.xpath: //img[@data-landscape-url='https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/w_330,c_limit/c6d9d042-f0b9-46a3-bd1f-04e16541a1d9/air-force-1-07-next-nature-zapatillas-JS3VmL.png']" width="1280"/>
-                <img src="cec6195c3afd7ce061aeca65e1110cf7c5c4c0f6d323cf6c93aeb414462cf6e9.png" title=" Seleccionar producto (completed)" width="1280"/>
-                <img src="cec6195c3afd7ce061aeca65e1110cf7c5c4c0f6d323cf6c93aeb414462cf6e9.png" title=" Cuando El seleccione las Nike Air Force (completed)" width="1280"/>
-                <img src="cec6195c3afd7ce061aeca65e1110cf7c5c4c0f6d323cf6c93aeb414462cf6e9.png" title=" Entonces El visualizara la descripci&oacute;n del producto" width="1280"/>
-                <img src="cec6195c3afd7ce061aeca65e1110cf7c5c4c0f6d323cf6c93aeb414462cf6e9.png" title=" Validar producto" width="1280"/>
-                <img src="cec6195c3afd7ce061aeca65e1110cf7c5c4c0f6d323cf6c93aeb414462cf6e9.png" title=" Entonces El visualizara la descripci&oacute;n del producto (completed): <span class='success-color'>SUCCESS</span>" width="1280"/>
+                <img src="9cc473083626bdfd71a0eb88362daae193a37e333c8bb88abca638841df631bf.png" title=" Dado Que el usuario se encuentra en la pagina web" width="1920"/>
+                <img src="9cc473083626bdfd71a0eb88362daae193a37e333c8bb88abca638841df631bf.png" title=" Abrir navegador" width="1920"/>
+                <img src="9cc473083626bdfd71a0eb88362daae193a37e333c8bb88abca638841df631bf.png" title=" Dado Que el usuario se encuentra en la pagina web (completed)" width="1920"/>
+                <img src="9cc473083626bdfd71a0eb88362daae193a37e333c8bb88abca638841df631bf.png" title=" Cuando El seleccione la planta Evora" width="1920"/>
+                <img src="9cc473083626bdfd71a0eb88362daae193a37e333c8bb88abca638841df631bf.png" title=" Seleccionar producto evora" width="1920"/>
+                <img src="66fe3bb39f9d6df4887bf11a8e730963ccf54f6dc33ebba5c10968081433daec.png" title=" Click: By.xpath: //img[@src='https://sanangel.com.co/wp-content/uploads/2020/11/evora-new-1-300x300.jpg']: <span class='error-color'>ERROR</span>" width="1920"/>
             </div>
         </div>
 

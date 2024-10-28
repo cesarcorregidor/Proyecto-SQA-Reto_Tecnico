@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Agregar Productos Amor" skipped="0" tests="1" time="20.16" timestamp="2024-10-28 05:26:37"><testcase name="Seleccionar dos productos de la"><error type="java.lang.NullPointerException"/><system-err>null&#13;
+com.floristeriamundoflor.StepDefinitions.AgregarProductosAmorStepDefinition.el_agregue_al_carrito_el_producto_uno(AgregarProductosAmorStepDefinition.java:33)&#13;
+✽.El agregue al carrito el producto uno(src/test/resources/features/AgregarProductosAmor.feature:11)&#13;
+</system-err></testcase></testsuite>

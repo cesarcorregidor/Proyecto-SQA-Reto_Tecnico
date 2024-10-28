@@ -17,7 +17,7 @@ Session ID: 7f85823c89c85a5fc50cc50b30b8de52
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-B1M4PHT', ip: '172.19.224.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_351'
 Driver info: driver.version: unknown&#13;
-es.com.nike.Steps.PaginaInicioSesionClaveStep.ingresarClave(PaginaInicioSesionClaveStep.java:22)&#13;
-es.com.nike.StepDefinitions.LoginStepDefinition.elIngreseElUsuarioConLaClave(LoginStepDefinition.java:40)&#13;
+Steps.co.com.sanangel.PaginaInicioSesionClaveStep.ingresarClave(PaginaInicioSesionClaveStep.java:22)&#13;
+StepDefinitions.co.com.sanangel.LoginStepDefinition.elIngreseElUsuarioConLaClave(LoginStepDefinition.java:40)&#13;
 ✽.El ingrese el usuario con la clave(src/test/resources/features/Login.feature:9)&#13;
 </system-err></testcase></testsuite>
